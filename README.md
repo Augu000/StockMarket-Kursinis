@@ -1,10 +1,13 @@
 # 1. Introduction
 
-## a. What is your application?
-Your application is a user management system with functionalities for user authentication and fetching stock data from the Finnhub API.
+## a. StockMarket application
 
 ## b. How to run the program?
-To run the program, execute the Python script containing the provided code.
+To run the program, execute the Python script containing the provided code 
+```
+python main.py
+
+```
 
 ## c. How to use the program?
 Users can sign up by providing a username, email, and password. They can then sign in using their credentials. After signing in, they can fetch stock data by entering the stock symbol they are interested in.
@@ -23,10 +26,26 @@ The program successfully fetches stock data from the Finnhub API and displays it
 The program demonstrates the successful implementation of user management and stock data fetching functionalities.
 
 ## c. How it would be possible to extend your application?
-You could extend the application by adding additional features such as:
+We could extend the application by adding additional features such as:
 - Implementing a GUI for a more user-friendly interface.
 - Allowing users to save favorite stocks and receive notifications for price changes.
 - Incorporating more advanced stock analysis tools, such as technical indicators or sentiment analysis.
 
 # 4. Optional: Resources, references list.
 No external resources or references were used in the development of this program.
+
+## Code Snippets
+
+### User Management Class
+```python
+class User:
+    def __init__(self, username, email, password):
+        self._username = username
+        self._email = email
+        self._password = password
+
+    def verify_password(self, password):
+        return self._password == password
+
+    def display_info(self):
+        print(f"Username: {self._username}, Email: {self._email}")
