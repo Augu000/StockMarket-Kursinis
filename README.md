@@ -19,7 +19,7 @@ Users can sign up by providing a username, email, and password. They can then si
 
 ## Reading from file and writting to file
 
-### Testing
+## Testing
 
 
 ### User Management Class
