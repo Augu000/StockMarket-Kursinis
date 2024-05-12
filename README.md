@@ -18,11 +18,8 @@ The program covers functional requirements by providing features for user manage
 
 # 3. Results and Summary
 
-## a. See "Results" functional requirement
-The program successfully fetches stock data from the Finnhub API and displays it to the user.
-
-## b. See "Conclusions" functional requirement
-The program demonstrates the successful implementation of user management and stock data fetching functionalities.
+✅ The program successfully fetches stock data from the Finnhub API and displays it to the user.
+✅ The program demonstrates the successful implementation of user management and stock data fetching functionalities.
 
 ## c. How it would be possible to extend your application?
 We could extend the application by adding additional features such as:
