@@ -13,11 +13,11 @@ Users can sign up by providing a username, email, and password. They can then si
 
 # 2. 🟢 Body/Analysis
 
-### 4 OOP Pillars
+## 4 OOP Pillars
 
-### At least 2 Design Patterns
+## At least 2 Design Patterns
 
-### Reading from file and writting to file
+## Reading from file and writting to file
 
 ### Testing
 
