@@ -37,8 +37,6 @@ class User:
         print(f"Username: {self._username}, Email: {self._email}")
 ```
 
-<br>
-<br>
 # 3. 🟢 Results and Summary
 
 ✅ The program successfully fetches stock data from the Finnhub API and displays it to the user. <br>
