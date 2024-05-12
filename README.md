@@ -6,7 +6,6 @@
 To run the program, execute the Python script containing the provided code 
 ```
 python main.py
-
 ```
 
 ## c. How to use the program?
