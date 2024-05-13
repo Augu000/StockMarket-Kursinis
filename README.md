@@ -142,6 +142,7 @@ class User:
 
 
 
+
 ## Singleton 
 
 The UserManager class implements the Singleton pattern. This design pattern ensures that a class has only one instance and provides a global point of access to it.<br>
@@ -165,6 +166,7 @@ class UserManager:
 
 The create_user method in the UserManager class acts as a Factory method. This pattern provides an interface for creating objects in a superclass but allows subclasses to alter the type of objects that will be created. <br>
 In your code, the create_user method decides which type of user (Developer or Trader) to instantiate based on the type argument. This method encapsulates the instantiation logic and decouples the code that generates the object from the code that uses the object.
+
 ```python
 def create_user(self, type, username, email, password):
     if type == 'developer':
