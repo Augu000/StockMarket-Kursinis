@@ -99,7 +99,7 @@ class UserManager:
 # Example usage
 if __name__ == "__main__":
     manager = UserManager()
-    manager.add_user('trader', 'cash', 'cash@example.com', 'money123')
+    manager.add_user('ZMOGUS', 'cash', 'ZMOGUS@example.com', 'money123')
     manager.add_user('developer', 'dev', 'dev@example.com', 'code123')
     manager.sign_in('cash', 'money123')
     manager.sign_in('dev', 'code123')
