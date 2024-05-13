@@ -198,6 +198,23 @@ class Trader(User):
 
 ## Reading from file and writting to file
 
+The code snippet for reading user data from a file is part of the load_users_from_file method in the UserManager class. This method attempts to open and read the users.json file, then parses the JSON data to reconstruct user objects.
+
+```python
+def load_users_from_file(self):
+    try:
+        with open(self.users_file, 'r') as file:
+            data = json.load(file)
+        return {username: self.create_user('developer', **user_data) if 'dev' in username else self.create_user('trader', **user_data)
+                for username, user_data in data.items()}
+    except FileNotFoundError:
+        print(f"{self.users_file} not found. Starting with an empty user database.")
+        return {}
+    except Exception as e:
+        print(f"Failed to load user data: {e}")
+        return {}
+```
+
 # Testing
 
 # 3. 🟢 Results and Summary
